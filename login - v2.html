@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset=UTF-8">
+        <title>AskMe!</title>
+        <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap/css/jumbotron.css">
+        <link rel="stylesheet" type="text/css" href="./my_css.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">AskMe!</a>
+                    </div>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Ask!</button>
+                    </form>
+                    !-- Userblock begin -->
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li><a href="#">log in</a></li>
+                        <li><a href="register-v2.html">register</a></li>
+                    </ul>
+                    <!-- Userblock end -->
+                </div>
+            </nav>
+
+    <!-- Right  column (begin)-->
+
+                <div class="col-sm-7">
+                    <div class="row">
+                        <H1> Log In </H1>
+                    </div>
+                    <div class="row">
+                        <div class="alert alert-danger">
+                            <strong>Sorry!</strong>Wrong password
+                        </div>
+                    </div>
+
+                <div class="row">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputLogin" class="col-xs-3 control-label">Login:</label>
+                            <div class="col-xs-6">
+                                <input type="login" class="form-control" id="inputLogin" placeholder="Enter your login">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputPassword" class="col-xs-3 control-label">Password:</label>
+                            <div class="col-xs-6">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Enter password">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-xs-offset-3 col-xs-6">
+                                <button type="submit" class="btn btn-default">Log in!</button>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="register-v2.html">Create new account</a>
+                </div>
+            </div><!-- Right column (end)-->
+
+    <!-- Left column (begin)-->
+            <div class="col-sm-4 col-sm-offset-1">
+                <!-- Popular tags --> 
+                <div class="row info_block">
+                    <H2>Popular Tags</H2> 
+                    <p> Tag_1 Tag_2 Tag_3 Tag_4 Tag_5 Tag_6 
+                        Tag_7 Tag_8 Tag_9 Tag_10 Tag_11 Tag_12 Tag_13 
+                        Tag_14 Tag_15 Tag_16 Tag_17 Tag_18 Tag_19 Tag_20</p>
+                </div>
+                <!-- Best members --> 
+                <div class="row info_block"> 
+                    <H2>Best Members </H2> 
+                    <p> <a> Author_1</a> <br> <a> Author_2 </a> 
+                        <br> Author_3 <br> Author_4 <br> Author_5 <br> Author_6 
+                        <br> Author_7 <br> Author_8 <br> Author_9 <br> Author_10 </p>
+                </div>
+            </div><!-- Left column (end) -->
+        </div> <!-- Container (end)-->
+
+        <hr> </hr>
+        <footer> Surikova Olga</footer>
+    </body>
+</html>
+
+
+
+

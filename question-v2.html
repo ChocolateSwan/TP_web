@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset=UTF-8">
+        <title>AskMe!</title>
+        <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap/css/jumbotron.css">
+        <link rel="stylesheet" type="text/css" href="./my_css.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">AskMe!</a>
+                    </div>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Ask!</button>
+                    </form>
+                <!-- Userblock begin -->
+                <ul class="nav navbar-nav navbar-right ">
+                    <li> <img src="picture.jpg" class="profile-image img-circle navbar-right" width="40px"> </li>
+                    <li><span class="navbar-text navbar-right" style="color: #FFFFFF; margin-right:10px;">User</span></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">logout</a></li>
+                </ul>
+                <!-- Userblock end -->
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-sm-7 blog-main">
+                    <div class="row">
+                        <H1> Log In </H1>
+                    </div>
+                    <div class="row">
+<!-- Аватар и лайки --> 
+                        <div class="col-md-2">
+                            <img src="picture.jpg" class="img-thumbnail" alt="Coc" width="200px" height="150px"/>
+                            <br/> 
+                            <br/>
+                            <span class="label label-default likes" width="200px">25</span>
+                            <a href="#" class="btn btn-default  "> 
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                            </a>
+                        </div>
+<!-- Текст вопроса --> 
+                        <div class="col-md-10">
+                            <a class="question_header"> How to build a moon park?</a>
+                            <p>Sadly Moon Park is in it’s last days. Our last service will be on
+                            Saturday the 24th September. Until we close we will be open for dinner 
+                            Tuesday through Saturday offering a set $59 menu of four courses compri
+                            sing some of our favourite dishes of the past 3 years, as well as some ne
+                            w hits. The menu will change weekly. We’d love the opportunity to have you i
+                            n once last time!</p>
+                            <div>
+                                Tags <a class="tag"> black-jack </a> <a class="tag"> bender </a>
+                            </div>
+                        </div>
+                    </div>
+<!--Линия перед ответами-->
+                    <hr> </hr>
+	
+<!-- Ответы -->
+                    <div class="row question">
+                    <!-- Аватар и лайки --> 
+                        <div class="col-md-2">
+                            <img src="picture.jpg" class="img-thumbnail" alt="Coc" width="200px" height="150px"/>
+                            <br/> 
+                            <br/>
+                            <span class="label label-default likes" width="200px">25</span>
+                            <a href="#" class="btn btn-default  "> 
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                            </a>
+                        </div>
+<!-- Текст ответа-->
+                        <div class="col-md-10">
+                            <p> Moonpark is an Argentine music festival, held three times annually 
+                            since 2003. It is held in the Northeast of Buenos Aires city.It is considered one of the mo
+                            st important dance and electronic music festivals in the country.</p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Correct!</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row question">
+
+                        <div class="col-md-2">
+                            <img src="picture.jpg" class="img-thumbnail" alt="Coc" width="200px" height="150px"/>
+                            <br/> 
+                            <br/>
+                            <span class="label label-default likes" width="200px">25</span>
+                            <a href="#" class="btn btn-default  "> 
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                            </a>
+                        </div>
+
+                        <div class="col-md-10">
+                        <p> Moonpark is an Argentine music festival, held three times annually 
+                        since 2003. It is held in the Northeast of Buenos Aires city.It is considered one of the mo
+                        st important dance and electronic music festivals in the country.</p>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="">Correct!</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+<!-- Форма создания ответа -->
+                    <form class="form-horizontal">
+<!-- Текст ответа -->
+                        <div class="form-group ">
+                            <textarea class="form-control " rows="5" id="answer" placeholder="Enter your answer here..."></textarea>
+                        </div>
+                    </form>
+<!-- Кнопка Answer -->  
+                <div class="form-group">
+                    <div class="col-xs-10">
+                        <button type="submit" class="btn btn-default">Answer!</button>
+                    </div>
+                </div>
+            </div> <!--Row(end)-->
+        </div><!-- Conainer (end)-->
+
+    <!-- Left column (begin)-->
+        <div class="col-sm-4 col-sm-offset-1">
+            <!-- Popular tags --> 
+            <div class="row info_block">
+                <H2>Popular Tags</H2> 
+                <p> Tag_1 Tag_2 Tag_3 Tag_4 Tag_5 Tag_6 
+                    Tag_7 Tag_8 Tag_9 Tag_10 Tag_11 Tag_12 Tag_13 
+                    Tag_14 Tag_15 Tag_16 Tag_17 Tag_18 Tag_19 Tag_20</p>
+            </div>
+            <!-- Best members --> 
+            <div class="row info_block"> 
+                <H2>Best Members </H2> 
+                <p> <a> Author_1</a> <br> <a> Author_2 </a> 
+                   <br> Author_3 <br> Author_4 <br> Author_5 <br> Author_6 
+                   <br> Author_7 <br> Author_8 <br> Author_9 <br> Author_10 </p>
+            </div>
+        </div> <!--Left column (end)-->
+    </div>
+</div>
+
+
+
+<hr> </hr>
+<footer> Surikova Olga
+</footer>
+
+
+</body>
+</html>
