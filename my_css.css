@@ -1,6 +1,6 @@
 .info_block{
 text-align:center;
-margin-bottom: 10px;
+margin-top: 20px;
 }
 H2{
 font-size:200%;
@@ -18,7 +18,7 @@ line-height: 200%;
 footer{
 padding-left: 5%;
 }
-.question{
+.border_quest_ans{
 padding: 10px;
 border: 1px solid;  
 border-color:#000000;
@@ -43,6 +43,7 @@ font-size: 18px;
 .likes{
 margin-right: 4px;
 padding:6px;
+	font-size:16px;
 
 }
 
@@ -56,4 +57,18 @@ padding-bottom: 3px;
 margin-right:10px;  
 }
 
+.user_navbar{
+	color: #FFFFFF; 
+	margin-right:10px;
+}
 
+.btn-mar{
+	margin-bottom:2px;
+}
+
+.navbar-brend {
+width:60px;
+height:50px;
+position:relative;
+bottom: 10 px; это сдвиг снизу
+}
