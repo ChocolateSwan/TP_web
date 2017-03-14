@@ -8,7 +8,7 @@
     </head>
 
     <body class="container">
-
+        
             <!-- Navbar -->
             <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
@@ -23,94 +23,101 @@
                     </form>
                 <!-- Userblock begin -->
                 <ul class="nav navbar-nav navbar-right ">
-                    <li><a href="login - v2.html">log in</a></li>
-                    <li><a href="#">register</a></li>
+                    <li> <img src="picture.jpg" class="profile-image img-circle navbar-right" width="40px"> </li>
+                    <li><span class="navbar-text navbar-right user_navbar">User</span></li>
+                    <li><a href="settings.html">settings</a></li>
+                    <li><a href="#">logout</a></li>
                 </ul>
                 <!-- Userblock end -->
                 </div>
             </nav>
+
             <div class="row">
-            <div class="col-sm-7 blog-main"><!-- Right  column (begin)-->
-                <div class="row">
-                    <H1> Registration </H1>
-                </div>
-                <div class="row">
-                    <div class="alert alert-danger">
-                        <strong>Sorry! </strong>This Email address alredy registred!
-                   </div>
-                </div>
-                <div class="row">
+                <div class="col-sm-7 blog-main">
+                    <div class="row">
+
+                            <H1> Settings: Dr. Pepper </H1>
+ 
+                        
+                    </div>
+	
+	<div class="row">
                     <form class="form-horizontal">
                         <div class="form-group">
                             <label for="inputLogin" class="col-xs-3 control-label">Login:</label>
                             <div class="col-xs-6">
-                                <input type="text" class="form-control" id="inputLogin" placeholder="Enter your login">
+                                <input type="text" class="form-control" id="inputLogin" value="dr_pepper">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputEmail" class="col-xs-3 control-label">Email:</label>
                             <div class="col-xs-6">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+                                <input type="email" class="form-control" id="inputEmail" value="dr_pepper@mail.ru">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputNickName" class="col-xs-3 control-label">NickName:</label>
                             <div class="col-xs-6">
-                                <input type="text" class="form-control" id="inputNickName" placeholder="Enter NickName">
+                                <input type="text" class="form-control" id="inputNickName" value="Dr. Pepper">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword" class="col-xs-3 control-label">Password:</label>
                             <div class="col-xs-6">
-                                <input type="password" class="form-control" id="inputPassword" placeholder="Enter password">
+                                <input type="password" class="form-control" id="inputPassword" value="password">
                             </div>
                         </div>
+                      
                         <div class="form-group">
-                            <label for="inputPassword2" class="col-xs-3 control-label">Password 2:</label>
-                            <div class="col-xs-6">
-                                <input type="password" class="form-control" id="inputPassword2" placeholder="Repeat password">
-                            </div>
-                        </div>
-                        <div class="form-group">
+                        
                             <label for="inputAvatar" class="col-xs-3 control-label">Apload avatar:</label>
+	
                             <div class="col-xs-6">
+                                <img src="picture.jpg" class="img-thumbnail" alt="Coc" width="100px" height="100px"/>
                                 <input type="file" title="Search for a file to add">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-offset-3 col-xs-6">
-                                <button type="submit" class="btn btn-default">Log in!</button>
+                                <button type="submit" class="btn btn-default">Save!</button>
                             </div>
                         </div>
                     </form>
                 </div>
-            </div><!-- Right  column (end)-->
 
-    <!-- Left column (begin)-->
-            <div class="col-sm-4 col-sm-offset-1">
-                <!-- Popular tags -->
-                <div class="row info_block">
-                    <H2>Popular Tags</H2>
-        <p> <a href="tags.html">Tag_1</a  > Tag_2 Tag_3 Tag_4 Tag_5 Tag_6
-                        Tag_7 Tag_8 Tag_9 Tag_10 Tag_11 Tag_12 Tag_13
-                        Tag_14 Tag_15 Tag_16 Tag_17 Tag_18 Tag_19 Tag_20</p>
                 </div>
-                <!-- Best members -->
-                <div class="row info_block">
-                    <H2>Best Members </H2>
-                    <p> <a> Author_1</a> <br> <a> Author_2 </a>
-                       <br> Author_3 <br> Author_4 <br> Author_5 <br> Author_6
-                        <br> Author_7 <br> Author_8 <br> Author_9 <br> Author_10 </p>
+                <!-- Left column (begin)-->
+                    <div class="col-sm-4 col-sm-offset-1">
+                        <!-- Popular tags -->
+                        <div class="row info_block">
+                            <H2>Popular Tags</H2>
+                            <p><a href="tags.html"> Tag_1</a> Tag_2 Tag_3 Tag_4 Tag_5 Tag_6
+                                Tag_7 Tag_8 Tag_9 Tag_10 Tag_11 Tag_12 Tag_13
+	Tag_14 Tag_15 Tag_16 Tag_17 Tag_18 Tag_19 Tag_20</p>
+                        </div>
+                        <!-- Best members -->
+                        <div class="row info_block">
+                            <H2>Best Members </H2>
+                            <p> <a> Author_1</a> <br> <a> Author_2 </a>
+                               <br> Author_3 <br> Author_4 <br> Author_5 <br> Author_6
+                               <br> Author_7 <br> Author_8 <br> Author_9 <br> Author_10 </p>
+                        </div>
+                    </div> <!--Left column (end)-->
                 </div>
-            </div><!-- Left column (end) -->
-</div>
-
-        <hr> </hr>
+            
+        
+        <hr></hr>
         <footer> Surikova Olga
         </footer>
     </body>
 </html>
 
+
+<!-- <a class="btn btn-default glyphicon glyphicon-hand-up"></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-thumbs-up"></span></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-heart"></span></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-heart-empty"></span></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-thumbs-down"></span></a>  -->
 
 
 
